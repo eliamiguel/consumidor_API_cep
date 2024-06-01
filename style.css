@@ -111,10 +111,7 @@ body {
   font-size: 14px;
   color: red;
 }
-.text-error input:focus,
-.text-error input:valid {
-    height: 100%;
-}
+
 
 
 
