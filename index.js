@@ -37,6 +37,9 @@ const pesquisarCep = async ()=>{
     textErro.classList.add('text-error')
   }else{
     preenchercampo(endereco)
+    document.getElementById('corrirCep').classList.remove('error')
+    textErro.innerHTML = ''
+    textErro.classList.remove('text-error')
   }
   
   }else{
