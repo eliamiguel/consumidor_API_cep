@@ -40,7 +40,7 @@ const pesquisarCep = async ()=>{
   }
   
   }else{
-    document.getElementById('cep').classList.add('error')
+    document.getElementById('corrirCep').classList.add('error')
     textErro.innerHTML = 'cep invalido'
     textErro.classList.add('text-error')
   }

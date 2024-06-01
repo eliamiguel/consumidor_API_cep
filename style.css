@@ -102,12 +102,16 @@ body {
 .error{
   border: 2px solid red;
   box-shadow: 1px;
+  color: red;
   outline: red;
   border-radius: 2px;
 }
-.text-error, p{
-  margin: 0;
-  padding: 0;
+.error label{
+    color: red; 
+}
+
+.text-error{position: relative;
+    top: 60px;
   font-size: 14px;
   color: red;
 }
