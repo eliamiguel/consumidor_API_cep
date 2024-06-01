@@ -10,15 +10,16 @@ const preenchercampo = (response)=>{
 
 }
 
-limparFormulario = ()=>{
+const limparFormulario = ()=>{
   document.getElementById('numero').value= ''
   document.getElementById('bairro').value= ''
   document.getElementById('cidade').value= ''
   document.getElementById('estado').value= ''
 
 }
-const eNumero = (cep)=> /^[0-9]+$/.test(cep)
 
+
+const eNumero = (cep)=> /^[0-9]+$/.test(cep)
 const cepValido = (cep) => cep.length === 8 && eNumero(cep);
 
 const pesquisarCep = async ()=>{
