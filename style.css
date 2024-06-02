@@ -101,7 +101,7 @@ body {
 
 .error{
   border: 2px solid red;
-  box-shadow: 1px;
+  box-shadow: 2px;
   color: red;
   outline: red;
   border-radius: 2px;
@@ -110,8 +110,9 @@ body {
     color: red; 
 }
 
-.text-error{position: relative;
-    top: 60px;
+.text-error{
+  position: relative;
+  top: 80px;
   font-size: 14px;
   color: red;
 }
